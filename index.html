@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Teodora-Maria Kovács">
+    <meta name="keywords" content="distractie, muzică, festival, concert, natură">
+    <meta name="description"
+        content="Festivalul de muzică Echo Valley care aduce împreună artiști de top și oameni pasionați. Experimentează muzica live în mijlocul naturii, creează prietenii noi și bucură-te de o atmosferă unică, plină de energie și conexiuni autentice. Vino să simți magia sunetelor alături de noi!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Echo Valley
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> <img src="logo.png"
+                        alt="Logo rotund Echo Valley. Se vad munți colorați în mai multe straturi. Straturile îndepărtate sunt reprezentate de culori mai închise. Apare în mijloc, sub peisajul de munți, un râu curgător. Culorile sunt dominant calde, aflate pe un spectru de violet, roz și portocaliu."></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#festivalsievenimente">Festival &
+                                Evenimente</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bilete">Bilete</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#lineup">Line-Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="headercarousel" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#headercarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#headercarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#headercarousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#headercarousel" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#headercarousel" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="33.jpg" class="d-block w-100"
+                        alt="O maimuță care cântă la o chitară electrică, conectată la un a,plificator care se vede în spate. Fundalul este unul coplesțit de culori calde care apar ca niște fante pe un fundal închis.">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p span class="evidentiat">Muzică</p>
+                        <p>Ritmuri care îți dau fiori!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="34.jpg" class="d-block w-100"
+                        alt="Mulțime la un concert în aer liber noaptea, cu confetti plutind în aer și luminile scenei strălucind pe fundal.">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p span class="evidentiat">Distracție</p>
+                        <p>Clipuri pline de energie și voie bună!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="32.jpg" class="d-block w-100"
+                        alt="Public entuziast într-o sală de concert cu lumini colorate și artist pe scenă, înconjurat de jocuri de lumini galbene și albastre.">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p span class="evidentiat">Socializare</p>
+                        <p>Împreună, fiecare moment devine unic.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="31.jpg" class="d-block w-100"
+                        alt="Femeie în fața unui decor luminat cu simboluri muzicale din neon roșu, inclusiv trompete, piane și viori.">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p span class="evidentiat">Autenticitate</p>
+                        <p>Fii tu, bucură-te de moment!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="30.jpg" class="d-block w-100"
+                        alt="Mulțime care dansează într-o sală întunecată. Pe audiență cad lumini tehno colorate în formă de buline mai mari sau picățele.">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p span class="evidentiat">Magie</p>
+                        <p>Atmosfera care te face să visezi!</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#headercarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#headercarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <div class="continut">
+        <h1>Echo Valley</h1>
+        <div id="festivalsievenimente">
+            <h2>Festival & Evenimente</h2>
+            <p>La Echo Valley, ne-am propus să creăm mai mult decât un festival — o experiență autentică unde muzica,
+                natura și oamenii se îmbină într-o atmosferă unică, vibrantă și plină de energie. Situat într-o vale
+                pitorească, festivalul nostru aduce împreună artiști de top din întreaga lume, sunete captivante și un
+                decor natural impresionant, care amplifică magia fiecărui moment.</p>
+            <p> Echo Valley este locul unde prieteniile se nasc sub cerul deschis, dansurile durează până la răsărit și
+                amintirile se creează spontan. Fiecare ediție este construită cu pasiune și dedicație, având la bază
+                dorința noastră de a conecta oamenii prin muzică și emoție pură. Vino să simți vibe-ul, să te bucuri de
+                conexiuni autentice și să trăiești experiența Echo Valley!</p>
+            <h3>Locație</h3>
+            <p>
+                Echo Valley își deschide porțile într-un colț fermecător, ascuns de agitația orașului, dar accesibil
+                tuturor. Situat la doar câțiva kilometri de Rivertown, festivalul nostru a ales cu grijă acest spațiu
+                pentru a oferi o experiență unică, fără a perturba traficul urban. Călătorii pot ajunge aici rapid și
+                ușor, fie cu autobuze speciale, fie cu trenuri care fac legătura între Rivertown și Valea Echo.
+            </p>
+            <h4> Cele trei scene majore:</h4>
+            <div class="container-fluid">
+                <div class="galerie row">
+                    <div class="coloanadetrei">
+                        <div class="poza">
+                            <img src="1.png"
+                                alt="Mai mulți tineri care stau pe pături pe câmpul festivalului. Pe fundal sunt mulți copaci.">
+                            <p class="textpegalerie">Scena Văii</p>
+                        </div>
+                    </div>
+                    <div class="coloanadetrei">
+                        <div class="poza">
+                            <img src="2.png"
+                                alt="Balerine care dansează în cer în timpul apusului. Dansatoarele sunt îmbrăcate la fel, în rochii albe.">
+                            <p class="textpegalerie">Scena Apei</p>
+                        </div>
+                    </div>
+                    <div class="coloanadetrei">
+                        <div class="poza">
+                            <img src="3.png"
+                                alt="Echipă de dans surprinsă dinamic. Fundalul este întunecat, dar lumina cade ambiental pe dansatori.">
+                            <p class="textpegalerie">Scena Stelară</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--container-->
+            <h3>Știai că?</h3>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Atmosfera de poveste a Echo Valley
+                        </button>
+                    </p>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Echo Valley nu este doar o locație, ci un univers
+                            în sine, conceput
+                            să ofere o experiență
+                            multisenzorială. Valea este străjuită de păduri dense și dealuri ce își schimbă culorile
+                            odată
+                            cu lumina, transformând fiecare moment al zilei într-o experiență unică. Atmosfera calmă
+                            din
+                            timpul dimineții contrastează frumos cu vibrațiile nocturne, când muzica și luminile
+                            creează
+                            un
+                            spectacol captivant, scăldat de cerul înstelat. O rețea de poteci iluminate te conduce
+                            de la
+                            o
+                            scenă la alta, oferindu-ți ocazia să descoperi peisaje naturale uimitoare, însoțite de
+                            sunetul
+                            muzicii ecologice.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Cazare și facilități
+                        </button>
+                    </p>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Pentru cei care doresc să se bucure pe deplin de
+                            experiența Echo
+                            Valley, sunt disponibile
+                            opțiuni de cazare în campinguri tematice și cabane rustice, perfect integrate în peisaj.
+                            Zonele
+                            de campare sunt prevăzute cu toate facilitățile necesare, de la dușuri ecologice și
+                            puncte
+                            de
+                            încărcare solară, până la zone de relaxare cu hamace și scaune din lemn reciclabil. În
+                            plus,
+                            echipa Echo Valley a instalat mai multe puncte de reciclare și colectare selectivă
+                            pentru a
+                            reduce impactul asupra mediului.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Accesibilitate și sustenabilitate
+                        </button>
+                    </p>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">O prioritate a organizatorilor Echo Valley este ca
+                            fiecare vizitator
+                            să aibă o experiență
+                            plăcută și accesibilă. Din acest motiv, toate traseele și punctele cheie sunt amenajate
+                            pentru a
+                            permite accesul facil și persoanelor cu dizabilități. Festivalul susține activ
+                            transportul
+                            prietenos cu mediul, oferind reduceri la bilete celor care aleg transportul public sau
+                            vin
+                            în
+                            grupuri. Există autobuze speciale și linii de tren care fac legătura cu Echo Valley,
+                            încurajând
+                            participanții să reducă amprenta de carbon.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <p class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            Mâncare și produse locale
+                        </button>
+                    </p>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body ">Pe parcursul festivalului, te poți bucura de
+                            mâncăruri tradiționale
+                            și preparate internaționale
+                            din ingrediente locale și organice. Numeroase standuri de la Echo Valley colaborează cu
+                            mici
+                            producători locali, astfel încât fiecare masă să fie o descoperire a gusturilor
+                            regionale.
+                            De
+                            asemenea, există spații dedicate producătorilor artizanali unde vei găsi suveniruri
+                            autentice,
+                            bijuterii hand-made, haine și obiecte eco-friendly, toate realizate de artiști locali.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="bilete">
+            <h2>Bilete</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="card">
+                        <img src="5.png" class="card-img-top"
+                            alt="Surprinderea audienței din spate care are mâinile sus. În depărtare se vede scena cu o trupă care cântă live.">
+                        <div class="card-body">
+                            <h3 class="card-title">General Access</h3>
+                            <p class="card-text"> Biletele General Access îți oferă acces la esența evenimentului,
+                                permițându-ți să te bucuri
+                                de toate atracțiile principale. Sunt perfecte pentru cei care vor să se bucure de
+                                experiența
+                                completă, fără beneficii suplimentare.</p>
+                            <h4>Ce include:</h4>
+                            <ul>
+                                <li>Acces la toate zonele de intrare generală.</li>
+                                <li>Posibilitatea de a explora expoziții, spectacole live și ateliere.</li>
+                                <li>Acces la standurile de mâncare și băuturi selectate.</li>
+                            </ul>
+                            <p class="card-text">Biletele General Access sunt poarta ta către o experiență de neuitat.
+                                Vino
+                                alături de noi și
+                                simte energia și entuziasmul evenimentului!</p>
+                            <div class="buton">
+                                <button type="button" class="btn">
+                                    Oferte! <span class="badge badge rounded-pill text-bg-light">2</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div> <!--primu card-->
+
+                    <div class="card">
+                        <img src="4.png" class="card-img-top"
+                            alt="Un fan surprins din spate, cum iese în evidență, deoarece stă pe umerii cuiva. În depărtare se vede scena unde cântă artistul la o chitară electrică.">
+                        <div class="card-body">
+                            <h3 class="card-title">VIP Experiences</h3>
+                            <p class="card-text">Biletele VIP Experience sunt create pentru cei care își doresc să
+                                trăiască
+                                evenimentul la un
+                                alt nivel, cu beneficii exclusive și acces prioritar. Perfecte pentru cei care apreciază
+                                confortul și privilegiile unice.
+                            </p>
+                            <h4>Ce include:</h4>
+                            <ul>
+                                <li>Acces prioritar la toate zonele evenimentului.</li>
+                                <li>Locuri rezervate în zonele premium pentru spectacole și activități live.</li>
+                                <li>Acces la lounge-ul VIP cu zone de relaxare exclusiviste.</li>
+                            </ul>
+                            <p class="card-text">Biletele VIP Experience îți oferă ocazia de a experimenta evenimentul
+                                într-un mod rafinat și
+                                deosebit. Bucură-te de un tratament preferențial și creează amintiri de neuitat!</p>
+                        </div>
+                        <div class="buton">
+                            <button type="button" class="btn">
+                                Oferte! <span class="badge badge rounded-pill text-bg-light">1</span>
+                            </button>
+                        </div>
+                    </div> <!--carddoi-->
+
+                    <div class="card">
+                        <img src="6.png"
+                            alt="Fotografie care suprinde mâinile spectatorilor fiind ridicate. În spate se vede scena cu artiștii.">
+                        <div class="card-body">
+                            <h3 class="card-title">Day Pass</h3>
+                            <p class="card-text">
+                                Biletele One Day Ticket sunt alegerea perfectă pentru cei care vor să se bucure de tot
+                                ce
+                                are de oferit evenimentul, dar pe durata unei singure zile. Ideal pentru o zi plină de
+                                distracție și descoperiri.
+                            </p>
+                            <h4>Ce include:</h4>
+                            <ul>
+                                <li>Acces pentru o zi la toate zonele de intrare generală.</li>
+                                <li>Posibilitatea de a participa la toate activitățile și spectacolele disponibile în
+                                    ziua
+                                    aleasă.</li>
+                                <li>Acces la standurile de mâncare și băuturi selectate.</li>
+                            </ul>
+                            <p class="card-text">Biletele Day Pass sunt poarta ta către o experiență de neuitat. Vino
+                                alături de noi și
+                                simte energia și entuziasmul evenimentului!</p>
+                        </div>
+                        <div class="buton">
+                            <button type="button" class="btn">
+                                Oferte! <span class="badge badge rounded-pill text-bg-light">4</span>
+                            </button>
+                        </div>
+                    </div> <!--cardtrei-->
+                </div>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 17%">17%</div>
+            </div>
+            <p class="caption containercentrat">Au fost achiziționate 17% din biletele disponibile!</p>
+            <div class="buton">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Cumpără acum!
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <p class="modal-title fs-5" id="staticBackdropLabel">Achiziție
+                                </p>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Sunteți de acord cu achiziția biletului selectat, și veți fi redirecționat
+                                către pagina de plată.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Închide</button>
+                                <button type="button" class="btn btn-primary">Am înțeles</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="lineup">
+            <h2>Line-up</h2>
+            <p>Câțiva dintre artiștii care vor participa în noua Ediție Echo Valley:</p>
+            <h3>Electronic</h3>
+            <div class="container-fluid">
+                <div class="galerielineup row">
+                    <div class="coloanadetrei">
+                        <div class="poza">
+                            <img src="8.png" alt="Pug negru care poartă o pelerină galbenă.">
+                            <p class="textpegalerielineup">Luna Vortex</p>
+                        </div>
+                    </div>
+                    <div class="coloanadetrei">
+                        <div class="poza">
+                            <img src="9.png" alt="Pug negru care poartă o geacă de blugi.">
+                            <p class="textpegalerielineup">Echo Blaze</p>
+                        </div>
+                    </div>
+                    <div class="coloanadetrei">
+                        <div class="poza">
+                            <img src="10.png"
+                                alt="Pug negru care poartă o bonetă roșie și o bluză în dungi albe asortată.">
+                            <p class="textpegalerielineup">Nova Harmony</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3>Rock</h3>
+        <div class="container-fluid">
+            <div class="galerielineup row">
+                <div class="coloanadepatru">
+                    <div class="poza">
+                        <img src="11.png" alt="Pug negru care poartă ochelari și o eșarfă albă cu multe pete mici.">
+                        <p class="textpegalerielineup">Velvet Beats</p>
+                    </div>
+                </div>
+                <div class="coloanadepatru">
+                    <div class="poza">
+                        <img src="12.png" alt="Pug negru care poartă un jerseu alb.">
+                        <p class="textpegalerielineup">Skyline Reverie</p>
+                    </div>
+                </div>
+                <div class="coloanadepatru">
+                    <div class="poza">
+                        <img src="13.png" alt="Pug negru surpins din profil pe un fundal roșu intens. ">
+                        <p class="textpegalerielineup">Pulse</p>
+                    </div>
+                </div>
+                <div class="coloanadepatru">
+                    <div class="poza">
+                        <img src="14.png" alt="Un pug care se uită confuz la cameră.">
+                        <p class="textpegalerielineup">Aurora Dusk</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3>Pop</h3>
+        <div class=" container-fluid">
+            <div class="galerielineup row">
+                <div class="coloanadedoi">
+                    <div class="poza">
+                        <img src="15.png" alt="Un pug întins care cască larg.">
+                        <p class="textpegalerielineup">Shadow Serenade</p>
+                    </div>
+                </div>
+                <div class="coloanadedoi">
+                    <div class="poza">
+                        <img src="16.png" alt="Un pug între prene care se uită la cameră cu ochi de cățeluș.">
+                        <p class="textpegalerielineup">Golden Echo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3>Indie</h3>
+        <div class="container-fluid">
+            <div class="galerielineup row">
+                <div class="coloanadepatru">
+                    <div class="poza">
+                        <img src="17.png" alt="Pug negru care poartă un pulover galben.">
+                        <p class="textpegalerielineup">Mystic Drift</p>
+                    </div>
+                </div>
+                <div class="coloanadepatru">
+                    <div class="poza">
+                        <img src="20.png" alt="Pug negru care poartă glugă gri pe cap.">
+                        <p class="textpegalerielineup">Silver Tide</p>
+                    </div>
+                </div>
+                <div class="coloanadepatru">
+                    <div class="poza">
+                        <img src="21.png" alt="Un pug care stă culcat și se uită la cameră">
+                        <p class="textpegalerielineup">Celestia</p>
+                    </div>
+                </div>
+                <div class="coloanadepatru">
+                    <div class="poza">
+                        <img src="23.png" alt="Pug negru care poartă o căciulă galbenă în cap.">
+                        <p class="textpegalerielineup">Dreama</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="containercentrat">
+            <a href="index.html"><img src="logo_name.png"
+                    alt="Logo Echo Valley. Se vad munți colorați în mai multe straturi. Straturile îndepărtate sunt reprezentate de culori mai închise. Apare în mijloc, sub peisajul de munți, un râu curgător. Culorile sunt dominant calde, aflate pe un spectru de violet, roz și portocaliu. Sub logo apare scris, Înconjurând porțiunea inferioară a logoului rotund, numele festivalului."></a>
+        </div>
+        <nav>
+            <a href="#festivalsievenimente">Festival & Evenimente</a>
+            <a href="#bilete">Bilete</a>
+            <a href="#lineup">Line-Up</a>
+        </nav>
+        <div class="containercentrat">
+            <p>
+                Contact
+            </p>
+        </div>
+        <div class="containercentrat">
+            <div class="socials">
+                <a href="https://facebook.com" target="_blank"><img src="facebook.png"
+                        alt="Iconiță neagră și rotundă de la Facebook."></a>
+            </div>
+            <div class="socials">
+                <a href="https://instagram.com" target="_blank"><img src="instagram.png"
+                        alt="Iconiță neagră și rotundă de la Instagram."></a>
+            </div>
+            <div class="socials">
+                <a href="https://youtube.com" target="_blank"><img src="youtube.png"
+                        alt="Iconiță neagră și rotundă de la Youtube."></a>
+            </div>
+            <div class="socials">
+                <a href="https://x.com" target="_blank"><img src="twitter.png"
+                        alt="Iconiță neagră și rotundă de la X."></a>
+            </div>
+        </div>
+        <div class="containercentrat">
+            contact@echovalley.com | Telefon: +40 123 456 789
+        </div>
+        <div class="containercentrat">
+            Copyright 2024 Echo Valley. Toate drepturile rezervate.
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!--
+redisemnsioneaza pozele din carusel faaaa-->
+
+<!--la TEMA 4 SA STERGEM MMMM COMENTARII SI AIA CU META GENERATED BY MOBIRISE 
+curatzam codul-->
