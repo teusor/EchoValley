@@ -30,7 +30,7 @@ footer {
     width: 100%;
 }
 
-.containercentrat {
+footer .containercentrat {
     display: flex;
     color: #e1dce9;
     align-items: center;
@@ -55,7 +55,6 @@ footer p {
 }
 
 .socials img {
-    width: 5.5vw;
     padding: 1.5vw;
     height: auto;
     opacity: 0.5;
@@ -247,10 +246,6 @@ display: flex;
 
 @media (max-width: 768px) {
 
-    .containercentrat {
-       font-size: 0.5em;
-    }
-
     h2 {
         margin: 10vw;
     }
@@ -348,6 +343,27 @@ display: flex;
     .coloanadepatru {
         flex-basis: 100%;
     }
+
+    footer .containercentrat {
+        font-size: 0.7em;
+    }
+
+    footer img {
+        width: 12vw;
+    }
+
+    .socials img {
+        width: 9vw;
+    }
+
+    .navbar-brand img {
+        width: 10vw;
+    }
+
+    .buton {
+        margin-bottom: 2vh;
+        margin-left: 4vw;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
@@ -438,6 +454,10 @@ display: flex;
 
     .coloanadepatru {
         flex-basis: 23%;
+    }
+
+    .socials img {
+        width: 5.5vw;
     }
 }
 
@@ -544,5 +564,9 @@ display: flex;
 
     .coloanadepatru {
         flex-basis: 24%;
+    }
+
+    .socials img {
+        width: 5.5vw;
     }
 }
